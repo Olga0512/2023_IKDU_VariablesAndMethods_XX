@@ -15,14 +15,14 @@ public class MyFirstVariableAndMethod : MonoBehaviour
 
     (int, int) Swap(int m, int n)
     {
-        
+        /*
         Debug.LogFormat("m={0}, n={1}", m, n);
         int c = m;
         m = n;
         n = c;
         Debug.LogFormat("m={0}, n={1}", m, n);
-        
-        return (m, n);
+        */
+        return (n, m);
     }
 
     // Start is called before the first frame update
